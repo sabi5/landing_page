@@ -1,0 +1,110 @@
+body{
+	margin: auto;
+}
+
+/*HEAD SECTION*/
+
+h1{
+	background: black;
+	color:white;
+	height: 100px;
+	margin-left: 10px;
+}
+
+span{
+	color: orange;
+	font-size: 50px;
+}
+
+header{
+	background-color: black;
+}
+
+ul{
+	list-style-type: none;
+	background-color: brown;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+
+}
+
+li {
+	float: left;
+	display: inline-block;
+	border-right: 1px solid black;
+	margin-top:0px; 
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 6px 10px;
+	text-decoration: none;
+}
+/*HEAD SECTION END*/
+
+/*MAIN SECTION*/
+
+main{
+	margin-right: 400px;
+	height:600px;
+}
+
+main a{
+	color: orange;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.sub-main{
+	margin-left: 10px;
+}
+
+.image{
+	width: 150px;
+	height: 130px;
+	float: left;
+	background-color: #ccc;
+	margin-right: 10px;
+
+}
+/*MAIN SECTION END*/
+
+/*ASIDE SECTION*/
+
+aside{
+	float: right;
+	width: 320px;
+	height:600px;
+	background-color: #ccc;
+	margin-top: -620px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 36px;
+	
+}
+
+.li{
+	color: orange;
+	list-style-type: none;
+	border: 0px white;
+	float: none;
+}
+
+/*ASIDE SECTION END*/
+
+/*FOOTER SECTION */
+
+footer{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+.foot{
+	color: orange;
+}
+/*FOOTER SECTION END*/
